@@ -34,7 +34,7 @@ jobs:
         echo and this is a multi-line script
     - name: env vars
       env:
-      STEP_VAR: "declared on the STEP level"
+        STEP_VAR: "declared on the STEP level"
       run: |
         echo $WORKFLOW_VAR
         echo $JOB_VAR
